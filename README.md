@@ -14,7 +14,7 @@ One Time pad encryption is a simple, tried and true method of encryption. The mo
 If these rules are followed, the ecryption can be applied.
 ### OTP in this program
 How the OTP in this program is applied is very simple:
-1. First, the image to be encrypted is turned into a "text map" where 1 represents black (or here all hues > (127, 127, 127)) and 0 represents white (or here all hues < (127, 127, 127),
+1. First, the image to be encrypted is turned into a "text map" where 1 represents black (or here all hues > (127, 127, 127)) and 0 represents white (or here all hues < (127, 127, 127)),
 1. Second, a random key is generated witht the same dimensions as the **plaintext** (the text map of the image) and thus the same dimensions as the image (for now ;) ),
 1. Third, the random key is applied to the plaintext to generate the **cipher**,
 1. Fourth, the random key is then reapplied to the cipher to regenerate the plaintext.

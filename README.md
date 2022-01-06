@@ -4,7 +4,7 @@ This a simple python script that encrypts black and white images using a random 
 ## HOW IT WORKS
 The entire process is obviously based on the one time pad encryption technique, as in you can only use the key once per encryption and decryption after which it is best to use
 a different key. This code, at it's current state, can only be used as a demonstration for one time encryptions and how encryption could look like for an image. However, the changes needed to turn it into a usable encryption/decryption tool are not too hard to make.
-In its current state, this encryption works best with purely black and white images (as in images who contain only or mostly black and white) but can be used on images with color with which information retention is varied by the picture's composition. I am working on implementing RGB encryption in an efficient manner. 
+In its current state, this encryption works best with purely black and white images (as in images that contain only, or mostly black and white) but can be used on images with color with which information retention is varied by the picture's composition. I am working on implementing RGB encryption in an efficient manner. 
 ### One Time Pad encryption
 One Time pad encryption is a simple, tried and true method of encryption. The most basic conditions that are needed to be fulfilled for otp encryption to be successful:
 * Both the encrypter and decrypter must *somehow* agree on the key,
